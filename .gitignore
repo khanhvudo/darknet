@@ -14,8 +14,12 @@ convnet/
 decaf/
 submission/
 cfg/
+!cfg/yolo-obj.cfg
 build/darknet/*
 !build/darknet/YoloWrapper.cs
+!build/darknet/x64/data/obj.names
+!build/darknet/x64/data/obj.data
+!build/darknet/x64/data/train.txt
 .fuse*
 
 # OS Generated #
